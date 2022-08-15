@@ -1,3 +1,5 @@
+import kotlin.math.pow
+
 fun main () {
 
     /*
@@ -6,9 +8,13 @@ fun main () {
      */
 
         println("Digite o diâmetro: ")
-        var diam = readln().toDouble()
+        val diam = readln().toDouble()
 
-        println("A area do circulo é: ${(diam * diam) * 3.14}")
+        val raio = diam / 2
+        val area = raio.pow(2) * 3.14
 
+        val peri = 2 * 3.14 * raio
+
+        println("A área do círculo é: $area e o perimetro é: ${"%.2f".format(peri)}")
 
 }

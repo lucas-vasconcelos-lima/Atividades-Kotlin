@@ -1,3 +1,6 @@
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+
 fun main (){
 
     /*
@@ -5,10 +8,29 @@ fun main (){
 
     */
 
-    println("Digite sua idade: ")
-    var idade = readln().toInt()
+    val ano = LocalDate.now().year
 
-    println("Seu ano de nascimento foi: ${2022 - idade}")
+    println("Digite sua idade: ")
+    val idade = readln().toInt()
+
+    println("Já fez aniversário? (s/n)")
+    val niver = readln()
+
+    if(niver == "s"){
+
+        println("Seu ano de nascimento foi: ${ano - idade}")
+
+    }else{
+
+        println("Seu ano de nascimento foi: ${(ano - 1) - idade}")
+
+    }
+
+
+
+
+
+
 
 }
 
