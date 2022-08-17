@@ -18,10 +18,10 @@ fun main () {
         println("A ordem crescente é: $num2, $num3, $num1")
     }else if(num2 > num3 && num1 > num3 && num2 > num1) {
         println("A ordem crescente é: $num3, $num1, $num2")
-    }else if(num1 > num2 && num2 > num3 && num1 > num3) {
+    }else if(num2 in (num3 + 1) until num1) {
         println("A ordem crescente é: $num3, $num2, $num1")
     }else {
-        (num3 > num1 && num1 > num2 && num3 > num2)
+        (num1 in (num2 + 1) until num3)
         println("A ordem crescente é: $num2, $num1, $num3")
     }
 }

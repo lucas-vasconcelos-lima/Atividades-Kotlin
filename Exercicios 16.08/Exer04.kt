@@ -14,7 +14,7 @@ fun main () {
         val num = readln().toFloat()
 
 
-    var resto = num % 2
+    val resto = num % 2
 
 
     if(resto > 0){
