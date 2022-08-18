@@ -51,7 +51,7 @@ fun main() {
             menA++
         };if(sexo == 3 && temp == 1){
             outroC++
-        };if(idade >= 40 && temp == 2){
+        };if(idade >= 41 && temp == 2){
             PN4++
         };if(idade <= 18 && temp == 1){
             PC18++
