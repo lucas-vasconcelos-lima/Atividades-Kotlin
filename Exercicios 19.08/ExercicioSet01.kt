@@ -11,7 +11,6 @@ fun main (){
             Apresentar todos os dados da list.
     */
 
-    val estoque = mutableListOf<String>()
 
     while(true){
 
@@ -27,7 +26,7 @@ fun main (){
         println("Digite a opção desejada: ")
         val opc = readln().toInt()
 
-
+        // Dava para ter feito com o when ->
         if(opc == 1){
             adicionarProduto(String())
         }else if(opc == 2){

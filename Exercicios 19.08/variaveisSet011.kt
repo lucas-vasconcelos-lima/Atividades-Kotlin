@@ -5,8 +5,12 @@ fun adicionarProduto(inPro: String){
 
         println("Qual produto deseja incluir? ")
         val inPro = readln()
+    if(inPro.isNotBlank()) {
         estoque.add(inPro)
         println("Produto cadastrado com sucesso.")
+    }else{
+        println("Produto inválido")
+    }
 }
 
 // Função remover produtos
