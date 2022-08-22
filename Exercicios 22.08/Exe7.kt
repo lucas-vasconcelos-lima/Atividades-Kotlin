@@ -11,11 +11,11 @@ fun main (){
 
     val paciente1 = Pacientes ()
 
-    println("Digite o nome do paciente: ")
+    println("Digite o nome do(a) paciente: ")
     val nome = readln()
     paciente1.nome = nome
 
-    println("Digite a idade do paciente: ")
+    println("Digite a idade do(a) paciente: ")
     val idade = readln().toInt()
     paciente1.idade = idade
 
@@ -23,11 +23,11 @@ fun main (){
     val sexo = readln()
     paciente1.sexo = sexo
 
-    println("Digite a especialidade que o $nome precisa ser atendido: ")
+    println("Digite a especialidade que o/a $nome precisa ser atendido: ")
     val esp = readln()
     paciente1.especiadlidade = esp
     println()
-    println("O paciente $nome tem $idade anos de idade e é do sexo $sexo")
+    println("O/A paciente $nome tem $idade anos de idade e é do sexo $sexo")
     println("Está agendando consulta para o/a $esp")
 
 
