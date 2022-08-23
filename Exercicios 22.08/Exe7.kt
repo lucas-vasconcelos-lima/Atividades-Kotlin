@@ -9,7 +9,7 @@ fun main (){
         objeto e apresente as informações deste objeto no console.
      */
 
-    val paciente1 = Pacientes ()
+    val paciente1 = Pacientes()
 
     println("Digite o nome do(a) paciente: ")
     val nome = readln()
