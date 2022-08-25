@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ClienteTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-08-25T17:08:37" hostname="DESKTOP-7O75UPS" time="0.038">
+  <properties/>
+  <testcase name="adcClienteTest()" classname="ClienteTest" time="0.038"/>
+  <system-out><![CDATA[Digite o nome do produto a ser adicionado: 
+Produto cadastrado com sucesso!
+Digite o nome do produto a ser adicionado: 
+Produto cadastrado com sucesso!
+Digite o nome do produto a ser adicionado: 
+Produto cadastrado com sucesso!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
